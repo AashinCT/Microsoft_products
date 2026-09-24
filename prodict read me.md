@@ -599,19 +599,6 @@ Example:
        v
     Production
 
----
-
-# Daily Revision Plan
-
-**Day 1:** Azure + Cloud  
-**Day 2:** Networking + Security  
-**Day 3:** DevOps + GitHub  
-**Day 4:** Containers + Kubernetes  
-**Day 5:** Databases + Storage  
-**Day 6:** AI + Data  
-**Day 7:** Microsoft 365 + Dynamics 365 + Power Platform  
-
-Then repeat the cycle.
 
 ---
 
