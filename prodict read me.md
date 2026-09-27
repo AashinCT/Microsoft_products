@@ -1,676 +1,730 @@
-# Microsoft Products — Daily Reference
+# Microsoft Products & Tools Directory
 
-A daily-reference guide to Microsoft products and services, with simple explanations and real-world use cases. This document is intended for DevOps, cloud, security, development, data, AI, business, and productivity revision.
-
----
-
-## 1. Access
-
-**Microsoft Access** is a database application for creating and managing small relational databases.
-
-**Used for:** tables, forms, queries, reports, and small business databases.
-
-**Remember:** Access = small database application.
+> A categorized reference directory of Microsoft products, services, developer tools, cloud services, security platforms, AI tools, business applications, productivity apps, and infrastructure technologies.
+>
+> **Purpose:** Use this document as a daily revision reference for Microsoft technologies, especially Cloud, Azure, DevOps, AI, Security, Networking, Databases, and Software Development.
 
 ---
 
-# 2. Azure
+## Directory
 
-**Microsoft Azure** is Microsoft's cloud computing platform.
+- [Azure](#azure)
+  - [AI + Machine Learning](#azure-ai--machine-learning)
+  - [Analytics](#azure-analytics)
+  - [Compute](#azure-compute)
+  - [Containers](#azure-containers)
+  - [Databases](#azure-databases)
+  - [Developer Tools](#azure-developer-tools)
+  - [DevOps](#azure-devops)
+  - [Hybrid + Multicloud](#azure-hybrid--multicloud)
+  - [Identity](#azure-identity)
+  - [Integration](#azure-integration)
+  - [IoT](#azure-iot)
+  - [Management + Governance](#azure-management--governance)
+  - [Migration](#azure-migration)
+  - [Networking](#azure-networking)
+  - [Security](#azure-security)
+  - [Storage](#azure-storage)
+  - [Web + App Development](#azure-web--app-development)
+  - [Virtual Desktop](#azure-virtual-desktop)
+- [DevOps + Developer](#devops--developer)
+- [AI + Copilot](#ai--copilot)
+- [Security](#security)
+- [Identity + Access](#identity--access)
+- [Data + Analytics](#data--analytics)
+- [Power Platform](#power-platform)
+- [Dynamics 365](#dynamics-365)
+- [Microsoft 365 + Office](#microsoft-365--office)
+- [Windows + Windows Server](#windows--windows-server)
+- [Databases](#databases)
+- [GitHub](#github)
+- [Visual Studio](#visual-studio)
+- [Quick Technology Map](#quick-technology-map)
 
-It provides cloud services for computing, storage, databases, networking, security, AI, containers, monitoring, and DevOps.
+---
 
-**Remember:** Azure = Microsoft's cloud platform.
+# Azure
 
-## Azure Arc
+Microsoft Azure is Microsoft's cloud platform for computing, networking, storage, databases, AI, containers, security, monitoring, and application development.
 
-Azure Arc helps manage servers, Kubernetes clusters, and other resources outside Azure through Azure management capabilities.
+Official Azure product categories include AI + Machine Learning, Analytics, Compute, Containers, Databases, Developer Tools, DevOps, Hybrid + Multicloud, Identity, Integration, IoT, Management + Governance, Migration, Networking, Security, Storage, Virtual Desktop Infrastructure, and Web services.
 
-**Remember:** Azure Arc = manage resources anywhere through Azure.
+## Azure AI + Machine Learning
 
-## Azure Automation
+| Product | What it is used for |
+|---|---|
+| Microsoft Foundry | Build, deploy, and manage AI applications and agents |
+| Foundry Tools | AI APIs, tools, and models for application development |
+| Foundry Models | Access and work with AI models |
+| Foundry Agent Service | Build AI agents for business processes |
+| Foundry Control Plane | Observe, control, secure, and govern AI agents |
+| Foundry IQ | Ground agents in organizational knowledge |
+| Azure AI Search | Search, retrieval, RAG, and grounding for AI applications |
+| Azure AI Bot Service | Build and connect conversational bots |
+| Azure Machine Learning | Build, train, deploy, and manage ML models |
+| Azure OpenAI in Foundry Models | Use advanced AI models in Azure |
+| Azure Language in Foundry Tools | Language understanding and generation |
+| Azure Speech in Foundry Tools | Speech recognition and speech generation |
+| Azure Vision in Foundry Tools | Image and video analysis |
+| Azure Translator in Foundry Tools | Machine translation |
+| Azure Document Intelligence | Extract information from documents |
+| Azure Content Understanding | Analyze multimodal content |
+| Azure AI Video Indexer | Extract insights from video and audio |
+| Azure AI Custom Vision | Custom computer vision models |
+| Azure AI Immersive Reader | Reading and comprehension capabilities |
+| Azure AI Anomaly Detector | Detect anomalies in data |
+| Azure Open Datasets | Curated datasets for ML development |
+| Phi models | Microsoft's family of small language models |
+| Azure SRE Agent | AI-assisted site reliability and incident response |
 
-Automates repetitive administrative and operational tasks such as starting/stopping resources and running scheduled scripts.
+## Azure Analytics
 
-**Remember:** Automation = automatically perform repetitive cloud tasks.
+| Product | What it is used for |
+|---|---|
+| Microsoft Fabric | End-to-end data and analytics platform |
+| Azure Databricks | Big data, Spark analytics, data engineering, and AI |
+| Azure Synapse Analytics | Enterprise analytics and data warehousing |
+| Azure Data Factory | Data integration and pipelines |
+| Azure Data Explorer | Large-scale data exploration and analytics |
+| Azure Data Lake Storage | Data lake storage for analytics |
+| Azure Stream Analytics | Real-time stream processing |
+| Azure Analysis Services | Enterprise analytical models |
+| Azure Data Share | Share data across organizations |
+| Azure Event Hubs | High-volume event and telemetry ingestion |
+| HDInsight | Managed open-source analytics clusters |
+| Power BI | Business intelligence and dashboards |
+| Power BI Embedded | Embed Power BI analytics into applications |
+| Microsoft Graph Data Connect | Work with Microsoft 365 data in Azure |
 
-## Azure Blob Storage
+## Azure Compute
 
-Object storage for unstructured data such as images, videos, documents, backups, and logs.
+| Product | What it is used for |
+|---|---|
+| Azure Virtual Machines | Cloud-based Windows and Linux servers |
+| Azure App Service | Host web apps, APIs, and backend applications |
+| Azure Functions | Serverless event-driven code |
+| Azure Batch | Large-scale parallel and batch computing |
+| Azure Virtual Machine Scale Sets | Automatically scale groups of VMs |
+| Azure Dedicated Host | Dedicated physical server capacity |
+| Azure VMware Solution | Run VMware workloads in Azure |
+| Azure Kubernetes Service (AKS) | Managed Kubernetes |
+| Azure Container Apps | Run modern containerized applications |
+| Azure Container Instances | Run individual containers |
+| Azure Spring Apps | Managed Spring application hosting |
+| Azure CycleCloud | Manage HPC environments |
 
-**Remember:** Blob = store files/objects in the cloud.
+## Azure Containers
 
-## Azure Container Apps
+| Product | What it is used for |
+|---|---|
+| Azure Kubernetes Service (AKS) | Container orchestration with Kubernetes |
+| Azure Container Apps | Serverless container application hosting |
+| Azure Container Instances (ACI) | Fast container execution |
+| Azure Container Registry (ACR) | Private container image registry |
+| Azure Red Hat OpenShift | Managed OpenShift clusters |
+| Azure Service Fabric | Distributed application and microservice platform |
 
-A managed service for running containerized applications without directly managing the underlying Kubernetes infrastructure.
+## Azure Databases
 
-**Remember:** Container Apps = run containers with less infrastructure management.
+| Product | What it is used for |
+|---|---|
+| Azure SQL Database | Managed cloud SQL database |
+| Azure SQL Managed Instance | Managed SQL Server-compatible database |
+| SQL Server on Azure VMs | Run SQL Server on virtual machines |
+| Azure Database for PostgreSQL | Managed PostgreSQL |
+| Azure Database for MySQL | Managed MySQL |
+| Azure Cosmos DB | Globally distributed NoSQL database |
+| Azure Managed Redis | Managed in-memory data store |
+| Azure Data Explorer | High-performance analytics database |
 
-## Azure Container Instances
+## Azure Developer Tools
 
-Runs containers directly in Azure without requiring a full Kubernetes cluster.
-
-**Remember:** ACI = quickly run a container.
-
-## Azure Container Registry
-
-A private registry for storing and managing container images.
-
-**Remember:** ACR = store container images.
-
-## Azure Database for PostgreSQL
-
-A managed PostgreSQL database service in Azure.
-
-**Used for:** web applications, APIs, and business applications.
-
-**Remember:** Azure PostgreSQL = managed PostgreSQL database.
-
-## Azure Databricks
-
-A data and AI analytics platform based on Apache Spark.
-
-**Used for:** big-data processing, data engineering, analytics, and machine learning.
-
-**Remember:** Databricks = big data + analytics + AI.
+| Product | What it is used for |
+|---|---|
+| Azure Developer CLI | Developer-focused Azure command-line workflows |
+| Azure CLI | Manage Azure from a command line |
+| Azure PowerShell | Manage Azure with PowerShell |
+| Azure Resource Manager | Resource deployment and management layer |
+| ARM Templates | Infrastructure as code for Azure |
+| Azure Cloud Shell | Browser-based Azure shell |
+| Azure API Management | Publish, secure, and manage APIs |
+| Azure App Configuration | Centralized application configuration |
+| Azure Dev Box | Cloud-based developer workstations |
+| Microsoft Dev Box | Ready-to-code cloud development environments |
+| Microsoft Playwright Testing | Scalable web application testing |
+| Visual Studio | IDE for .NET, C++, Azure, and application development |
+| Visual Studio Code | Lightweight source-code editor |
 
 ## Azure DevOps
 
-A collection of services for software development and DevOps, including Boards, Repos, Pipelines, Test Plans, and Artifacts.
+| Product | What it is used for |
+|---|---|
+| Azure DevOps | Complete software development and DevOps platform |
+| Azure Boards | Work tracking, Agile planning, and issue management |
+| Azure Repos | Git repositories and source control |
+| Azure Pipelines | CI/CD build, test, and deployment automation |
+| Azure Test Plans | Manual and exploratory testing |
+| Azure Artifacts | Package management |
+| GitHub Actions | CI/CD automation inside GitHub |
+| GitHub Codespaces | Cloud development environments |
+| GitHub Copilot | AI-assisted software development |
 
-**Remember:** Azure DevOps = software development + DevOps platform.
+## Azure Hybrid + Multicloud
 
-## Azure Disk Encryption
+| Product | What it is used for |
+|---|---|
+| Azure Arc | Manage servers, Kubernetes, and services across environments |
+| Azure Local | Run Azure-connected workloads on distributed infrastructure |
+| Azure Stack Hub | Azure services in customer datacenters |
+| Azure Stack Edge | Edge compute and storage device |
+| Azure ExpressRoute | Private connection to Azure |
+| Azure Storage Mover | Move data to Azure |
+| Azure Operator Nexus | Platform for telecom workloads |
+| Azure Operator Service Manager | Manage operator services |
 
-Protects data stored on virtual machine disks through encryption.
+## Azure Identity
 
-**Remember:** Disk Encryption = protect VM disk data.
+| Product | What it is used for |
+|---|---|
+| Microsoft Entra ID | Cloud identity and access management |
+| Microsoft Entra Domain Services | Managed domain services |
+| Microsoft Entra External ID | Identity for customers and partners |
+| Microsoft Entra Verified ID | Verifiable digital identities |
+| Microsoft Entra Internet Access | Secure internet access |
+| Microsoft Entra Private Access | Secure private application access |
 
-## Azure Files
+## Azure Integration
 
-Provides managed cloud file shares that can be accessed by multiple systems.
+| Product | What it is used for |
+|---|---|
+| Logic Apps | Workflow automation and integration |
+| Service Bus | Enterprise messaging |
+| Event Grid | Event routing |
+| API Management | API publishing and management |
+| Azure Data Factory | Data integration |
+| Azure Communication Services | Communication APIs |
+| Notification Hubs | Push notifications |
 
-**Remember:** Azure Files = shared cloud file storage.
+## Azure IoT
 
-## Azure Firewall
+| Product | What it is used for |
+|---|---|
+| Azure IoT Hub | Connect and manage IoT devices |
+| Azure IoT Edge | Run cloud workloads at the edge |
+| Azure Digital Twins | Model physical environments digitally |
+| Azure Sphere | Secure IoT devices |
+| Azure Device Provisioning Service | Provision IoT devices |
+| Azure Event Hubs | Telemetry and event ingestion |
 
-A managed network security service that controls and filters network traffic using rules.
+## Azure Management + Governance
 
-**Remember:** Firewall = control network traffic.
+| Product | What it is used for |
+|---|---|
+| Azure Automation | Automate repetitive cloud tasks |
+| Azure Monitor | Metrics, logs, alerts, and observability |
+| Azure Policy | Enforce organizational rules |
+| Azure Resource Manager | Manage Azure resources |
+| Azure Advisor | Recommendations for Azure resources |
+| Azure Managed Applications | Package and manage cloud solutions |
+| Azure Migrate | Migration and modernization |
+| Azure Backup | Backup and data protection |
+| Azure Site Recovery | Disaster recovery |
+| Azure Cost Management | Monitor and optimize cloud costs |
+| Azure Lighthouse | Manage customer Azure environments |
+| Azure Network Watcher | Network diagnostics |
+| Azure Managed Grafana | Managed Grafana dashboards |
+| Azure Automanage | Automated infrastructure management |
+| Azure Resource Mover | Move resources between Azure regions |
+| Update Manager | Centralized update management |
+| Azure Chaos Studio | Test application resilience |
+| Azure Infrastructure Resiliency Manager | Define and validate resiliency |
+| Azure SRE Agent | Automate reliability operations |
 
-## Azure Key Vault
+## Azure Migration
 
-Securely stores secrets, passwords, API keys, certificates, and cryptographic keys.
+| Product | What it is used for |
+|---|---|
+| Azure Migrate | Discover, assess, and migrate workloads |
+| Azure Database Migration Service | Migrate databases |
+| Azure Data Box | Offline bulk data transfer |
+| Azure Storage Mover | Migrate file data |
+| Azure Site Recovery | Disaster recovery and workload recovery |
 
-**Remember:** Key Vault = secure storage for secrets and keys.
+## Azure Networking
 
-## Azure Kubernetes Service (AKS)
+| Product | What it is used for |
+|---|---|
+| Azure Virtual Network | Private network infrastructure |
+| Azure Application Gateway | Layer 7 load balancing and web routing |
+| Azure Load Balancer | Network load balancing |
+| Azure Front Door | Global application delivery |
+| Azure Traffic Manager | DNS-based traffic routing |
+| Azure VPN Gateway | Secure VPN connectivity |
+| Azure ExpressRoute | Private network connection to Azure |
+| Azure Private Link | Private access to Azure services |
+| Azure DNS | DNS hosting |
+| Azure Bastion | Secure managed VM access |
+| Azure Firewall | Network traffic filtering |
+| Azure Web Application Firewall | Web application protection |
+| Azure DDoS Protection | DDoS protection |
+| Azure Network Watcher | Network monitoring and diagnostics |
+| Azure Virtual WAN | Global branch connectivity |
+| Azure Virtual Network Manager | Centralized virtual network management |
+| Azure NAT Gateway | Scalable outbound internet connectivity |
+| Azure Route Server | Dynamic routing |
+| Azure Firewall Manager | Centralized firewall management |
+| Azure Network Function Manager | Deploy network functions |
+| Azure Multicloud Interconnect | Connect Azure with other clouds |
 
-Microsoft's managed Kubernetes service for deploying and operating containerized applications at scale.
+## Azure Security
 
-**Used for:** orchestration, scaling, load balancing, and high availability.
+| Product | What it is used for |
+|---|---|
+| Microsoft Defender for Cloud | Cloud security posture and threat protection |
+| Microsoft Sentinel | Cloud-native SIEM |
+| Azure Key Vault | Secrets, keys, and certificates |
+| Azure Firewall | Network security |
+| Azure DDoS Protection | DDoS defense |
+| Azure Web Application Firewall | Web security |
+| Microsoft Defender External Attack Surface Management | Discover internet-exposed assets |
+| Azure Disk Encryption | Encrypt VM disks |
+| Azure Bastion | Secure VM administration |
 
-**Remember:** AKS = managed Kubernetes in Azure.
+## Azure Storage
 
-## Azure Machine Learning
+| Product | What it is used for |
+|---|---|
+| Azure Storage Accounts | Core Azure storage resource |
+| Azure Blob Storage | Object storage |
+| Azure Files | Managed file shares |
+| Azure Queue Storage | Message queues |
+| Azure Table Storage | NoSQL key-value storage |
+| Azure Data Lake Storage | Analytics-focused data lake |
+| Azure Managed Disks | Persistent VM storage |
+| Azure Archive Storage | Low-cost archival storage |
 
-A platform for building, training, deploying, and managing machine-learning models.
+## Azure Web + App Development
 
-**Remember:** Azure ML = build, train, and deploy ML models.
+| Product | What it is used for |
+|---|---|
+| Azure App Service | Web apps and APIs |
+| Azure Static Web Apps | Full-stack static/web applications |
+| Azure Functions | Serverless computing |
+| Azure API Management | API gateway and management |
+| Azure SignalR Service | Real-time web applications |
+| Azure Web PubSub | Real-time WebSocket messaging |
+| Azure Maps | Maps and location services |
+| Azure Communication Services | Voice, chat, SMS, and communication |
+| Notification Hubs | Push notifications |
+| Azure Fluid Relay | Collaborative real-time experiences |
 
-## Azure Managed Applications
+## Azure Virtual Desktop
 
-Helps providers package and deploy applications that can be managed within customers' Azure environments.
-
-**Remember:** Managed Applications = managed packaged Azure solutions.
-
-## Azure Monitor
-
-Collects and analyzes metrics, logs, application information, and infrastructure information.
-
-**Remember:** Monitor = observe what is happening.
-
-## Azure Pipelines
-
-A CI/CD service that automates building, testing, and deploying software.
-
-**Typical flow:** Code -> Build -> Test -> Deploy.
-
-**Remember:** Pipelines = automate CI/CD.
-
-## Azure Policy
-
-Enforces organizational rules and compliance requirements for Azure resources.
-
-**Remember:** Policy = enforce cloud rules.
-
-## Azure PowerShell
-
-Allows administrators and developers to manage Azure resources using PowerShell commands.
-
-**Remember:** Azure PowerShell = manage Azure using PowerShell.
-
-## Azure Resource Manager (ARM)
-
-The management layer used to create, organize, configure, and control Azure resources.
-
-**Remember:** ARM = Azure resource management layer.
-
-## Azure SQL Database
-
-A managed relational database service based on Microsoft SQL technology.
-
-**Remember:** Azure SQL = managed SQL database in Azure.
-
-## Azure Storage Accounts
-
-Provide access to Azure storage services such as Blob Storage, Azure Files, queues, and tables.
-
-**Remember:** Storage Account = main entry point for Azure storage.
-
-## Azure Virtual Machines
-
-Provides virtual computers/servers running in Azure.
-
-**Remember:** VM = computer/server in the cloud.
-
-## Azure Virtual Network
-
-Creates private networks inside Azure so resources can communicate securely.
-
-**Remember:** VNet = private network in Azure.
-
-## Foundry Tools
-
-Tools and capabilities for developing AI applications and AI agents.
-
-**Remember:** Foundry Tools = tools for building AI solutions.
-
-## Microsoft Foundry
-
-Microsoft's platform for building, deploying, and managing AI applications and agents.
-
-**Remember:** Microsoft Foundry = AI development platform.
+| Product | What it is used for |
+|---|---|
+| Azure Virtual Desktop | Cloud-hosted Windows desktops and applications |
+| Azure Lab Services | Virtual labs for education and training |
+| Microsoft Dev Box | Cloud developer workstations |
+| Windows 365 | Cloud PCs |
 
 ---
 
-# 3. Dynamics 365
+# DevOps + Developer
 
-Dynamics 365 is Microsoft's family of business applications for areas such as sales, customer service, finance, operations, and field service.
-
-**Remember:** Dynamics 365 = business management applications.
-
-## Business Central
-
-Business management/ERP application for areas such as finance, sales, purchasing, inventory, and operations.
-
-**Remember:** Business Central = business/ERP management.
-
-## Customer Service
-
-Helps organizations manage customer support requests, cases, agents, and resolutions.
-
-**Remember:** Customer Service = manage customer support.
-
-## Dynamics 365 Contact Center
-
-Helps organizations manage customer interactions across contact-center channels.
-
-**Remember:** Contact Center = manage customer communications.
-
-## Field Service
-
-Helps organizations schedule and manage technicians working at customer locations.
-
-**Remember:** Field Service = manage field technicians and work.
-
-## Finance
-
-Helps organizations manage accounting, budgeting, financial operations, and reporting.
-
-**Remember:** Finance = manage business finances.
-
-## Sales
-
-Helps organizations manage leads, opportunities, customer relationships, and sales processes.
-
-**Remember:** Sales = manage leads and sales.
+| Product / Tool | What it is used for |
+|---|---|
+| Azure DevOps | Software lifecycle and DevOps |
+| Azure Boards | Agile work tracking |
+| Azure Repos | Git repositories |
+| Azure Pipelines | CI/CD |
+| Azure Test Plans | Software testing |
+| Azure Artifacts | Package feeds |
+| GitHub | Source control and collaboration |
+| GitHub Actions | CI/CD workflows |
+| GitHub Codespaces | Cloud development environments |
+| GitHub Copilot | AI coding assistant |
+| GitHub Advanced Security | Code security |
+| Visual Studio | Full IDE |
+| Visual Studio Code | Code editor |
+| .NET | Cross-platform application framework |
+| .NET MAUI | Cross-platform native UI framework |
+| MSBuild | Build system |
+| NuGet | .NET package manager |
+| Azure CLI | Azure command-line management |
+| Azure PowerShell | Azure PowerShell management |
+| Microsoft Graph | API for Microsoft cloud data and services |
 
 ---
 
-# 4. Excel
+# AI + Copilot
 
-Microsoft Excel is a spreadsheet application for calculations, data analysis, tables, charts, and reports.
-
-**Remember:** Excel = spreadsheet + data analysis.
-
----
-
-# 5. GitHub
-
-GitHub is a platform for hosting and collaborating on software projects using Git.
-
-**Used for:** source code, version control, pull requests, issues, collaboration, documentation, and CI/CD through GitHub Actions.
-
-**Remember:** GitHub = code + collaboration + version control.
-
----
-
-# 6. Microsoft 365
-
-Microsoft 365 is Microsoft's cloud productivity and collaboration suite.
-
-It includes services and applications such as Word, Excel, PowerPoint, Outlook, OneDrive, SharePoint, Teams, and Copilot.
-
-**Remember:** Microsoft 365 = productivity + collaboration cloud.
-
-## Microsoft 365 Copilot
-
-AI assistance integrated into Microsoft 365 applications.
-
-**Remember:** Microsoft 365 Copilot = AI inside Microsoft 365.
-
-## Microsoft 365 Security Center
-
-Provides security-related capabilities for monitoring and managing Microsoft 365 security.
-
-**Remember:** Security Center = Microsoft 365 security management.
+| Product | What it is used for |
+|---|---|
+| Microsoft Copilot | General AI assistant |
+| Microsoft 365 Copilot | AI across Microsoft 365 |
+| GitHub Copilot | AI-assisted coding |
+| Microsoft Copilot Studio | Build custom AI agents |
+| Microsoft Security Copilot | AI for security operations |
+| Azure Copilot | AI assistance for Azure |
+| Microsoft Foundry | AI application and agent platform |
+| Foundry Tools | AI APIs and tools |
+| Foundry Models | AI model catalog |
+| Foundry Agent Service | AI agent development |
+| Foundry Control Plane | Agent governance and operations |
+| Azure Machine Learning | ML lifecycle |
+| Azure AI Search | Search and RAG |
+| Azure AI Speech | Speech AI |
+| Azure AI Vision | Vision AI |
+| Azure AI Language | Language AI |
+| Azure Document Intelligence | Document extraction |
+| Azure Translator | Translation |
+| Azure AI Bot Service | Conversational bots |
+| AI Builder | Low-code AI |
 
 ---
 
-# 7. Microsoft Agent 365
+# Security
 
-Microsoft Agent 365 focuses on managing and governing AI agents in enterprise environments.
-
-**Remember:** Agent 365 = enterprise management and governance for AI agents.
-
----
-
-# 8. Microsoft Copilot
-
-Microsoft Copilot is Microsoft's family of AI assistants for tasks such as writing, research, summarization, coding, and productivity.
-
-**Remember:** Copilot = Microsoft's AI assistant ecosystem.
-
-## Microsoft Copilot Studio
-
-A platform for creating and customizing AI agents and copilots.
-
-**Remember:** Copilot Studio = build custom AI agents.
-
----
-
-# 9. Microsoft Defender
-
-Microsoft Defender is Microsoft's security product family for protecting devices, identities, cloud environments, applications, and other resources.
-
-## Microsoft Defender for Cloud
-
-Provides cloud security management, security recommendations, threat protection, and risk visibility.
-
-**Remember:** Defender for Cloud = cloud security.
-
-## Microsoft Defender for Cloud Apps
-
-Provides security and visibility for cloud applications and SaaS usage.
-
-**Remember:** Defender for Cloud Apps = cloud-application security.
-
-## Microsoft Defender for Endpoint
-
-Protects endpoints such as laptops, desktops, and servers.
-
-**Remember:** Defender for Endpoint = device security.
-
-## Microsoft Defender for Identity
-
-Helps detect identity-related threats, particularly in environments using Active Directory.
-
-**Remember:** Defender for Identity = identity/Active Directory threat detection.
-
-## Microsoft Defender XDR
-
-Extended Detection and Response platform that correlates security signals across multiple areas.
-
-**Remember:** XDR = connected security detection and response.
+| Product | What it is used for |
+|---|---|
+| Microsoft Defender | Microsoft security product family |
+| Defender for Endpoint | Endpoint protection |
+| Defender for Identity | Identity threat detection |
+| Defender for Cloud | Cloud security |
+| Defender for Cloud Apps | SaaS/cloud application security |
+| Defender XDR | Cross-domain threat detection and response |
+| Microsoft Sentinel | SIEM and security analytics |
+| Microsoft Security Copilot | AI-assisted security |
+| Microsoft Entra ID | Identity and access |
+| Microsoft Purview | Data governance and compliance |
+| Purview Compliance Manager | Compliance management |
+| Azure Key Vault | Secrets and keys |
+| Azure Firewall | Network security |
+| Azure DDoS Protection | DDoS protection |
+| Azure WAF | Web application security |
 
 ---
 
-# 10. Microsoft Entra
+# Identity + Access
 
-Microsoft Entra is Microsoft's identity and network-access product family.
-
-**Remember:** Entra = identity + access.
-
-## Microsoft Entra ID
-
-Microsoft's cloud identity and access management service. It was formerly known as Azure Active Directory (Azure AD).
-
-**Used for:** authentication, users, applications, access control, and identity management.
-
-**Remember:** Entra ID = login + identity + access control.
-
----
-
-# 11. Microsoft Fabric
-
-Microsoft Fabric is an end-to-end data and analytics platform.
-
-It brings together capabilities such as data engineering, data integration, data warehousing, data science, real-time analytics, and business intelligence.
-
-**Remember:** Fabric = data + analytics platform.
+| Product | What it is used for |
+|---|---|
+| Microsoft Entra | Identity and network access family |
+| Microsoft Entra ID | Authentication and authorization |
+| Microsoft Entra Domain Services | Managed domain services |
+| Microsoft Entra External ID | Customer and partner identities |
+| Microsoft Entra Verified ID | Verifiable credentials |
+| Microsoft Entra Private Access | Private application access |
+| Microsoft Entra Internet Access | Secure internet access |
+| Active Directory Domain Services | Traditional Windows identity and directory service |
+| Microsoft Intune | Device and application management |
+| Windows Hello for Business | Passwordless Windows authentication |
 
 ---
 
-# 12. Microsoft Power Platform
+# Data + Analytics
 
-Power Platform is a family of low-code/no-code tools for building applications, automating workflows, and analyzing data.
-
-Main components include Power Apps, Power Automate, Power BI, Power Pages, Dataverse, and AI Builder.
-
-**Remember:** Power Platform = build + automate + analyze.
-
-## AI Builder
-
-Adds AI capabilities to Power Platform applications and workflows.
-
-**Remember:** AI Builder = add AI to Power Platform.
-
-## Microsoft Dataverse
-
-A cloud data platform used by Power Platform applications to store structured business data.
-
-**Remember:** Dataverse = business data platform for Power Platform.
-
-## Power Apps
-
-Allows organizations to build business applications with low-code/no-code tools.
-
-**Remember:** Power Apps = build business apps.
-
-## Power Automate
-
-Automates workflows between applications and services.
-
-**Remember:** Power Automate = automate workflows.
-
-## Power BI
-
-Business intelligence and data visualization platform for dashboards, reports, and analysis.
-
-**Remember:** Power BI = data visualization + business intelligence.
-
-## Power Pages
-
-Allows organizations to build external-facing business websites and portals.
-
-**Remember:** Power Pages = business websites/portals.
+| Product | What it is used for |
+|---|---|
+| Microsoft Fabric | End-to-end analytics |
+| Power BI | BI and dashboards |
+| Azure Databricks | Big data and Spark |
+| Azure Synapse Analytics | Data warehousing and analytics |
+| Azure Data Factory | Data integration |
+| Azure Data Lake Storage | Data lake |
+| Azure Data Explorer | Analytics |
+| Azure Stream Analytics | Real-time stream processing |
+| Microsoft Purview | Data governance |
+| Microsoft Graph Data Connect | Microsoft 365 data integration |
+| SQL Server | Relational database |
+| Azure SQL Database | Managed SQL database |
+| Azure Cosmos DB | Distributed NoSQL |
+| Azure Database for PostgreSQL | Managed PostgreSQL |
+| Azure Database for MySQL | Managed MySQL |
 
 ---
 
-# 13. Microsoft Purview
+# Power Platform
 
-Microsoft Purview provides capabilities for data governance, compliance, risk, and information management.
+Microsoft Power Platform is Microsoft's low-code platform for apps, automation, analytics, websites, data, and AI.
 
-**Remember:** Purview = data governance + compliance.
-
-## Microsoft Purview Compliance Manager
-
-Helps organizations assess and manage compliance requirements and improvement actions.
-
-**Remember:** Compliance Manager = manage compliance activities.
-
----
-
-# 14. Microsoft Sentinel
-
-Microsoft Sentinel is a cloud-native SIEM platform for collecting security data, detecting threats, investigating incidents, and supporting security operations.
-
-**Remember:** Sentinel = SIEM + security monitoring.
+| Product | What it is used for |
+|---|---|
+| Power Apps | Build business applications |
+| Power Automate | Automate workflows |
+| Power BI | Data visualization and BI |
+| Power Pages | Build business websites and portals |
+| Copilot Studio | Build AI agents |
+| Microsoft Dataverse | Store and manage business data |
+| AI Builder | Add AI to low-code solutions |
+| Power Platform CLI | Command-line development and administration |
+| Power Platform Connectors | Connect applications and services |
 
 ---
 
-# 15. Office
+# Dynamics 365
 
-Microsoft Office is Microsoft's productivity software family, including applications such as Word, Excel, PowerPoint, Outlook, and Access.
-
-**Remember:** Office = productivity applications.
-
----
-
-# 16. Office 365
-
-Office 365 refers to Microsoft's cloud-based productivity services and applications, including services such as Exchange Online, SharePoint, OneDrive, and Office applications.
-
-**Remember:** Office 365 = cloud productivity services.
-
----
-
-# 17. Outlook
-
-Microsoft Outlook is used for email, calendars, meetings, contacts, and scheduling.
-
-**Remember:** Outlook = email + calendar + communication.
+| Product | What it is used for |
+|---|---|
+| Dynamics 365 | Business application ecosystem |
+| Business Central | ERP for small and medium businesses |
+| Dynamics 365 Finance | Financial management |
+| Dynamics 365 Sales | Sales and CRM |
+| Dynamics 365 Customer Service | Customer support |
+| Dynamics 365 Contact Center | Contact-center operations |
+| Dynamics 365 Field Service | Field service management |
+| Dynamics 365 Supply Chain Management | Supply chain operations |
+| Dynamics 365 Customer Insights | Customer data and journeys |
+| Dynamics 365 Marketing | Marketing operations |
+| Dynamics 365 Project Operations | Project-based business operations |
+| Dynamics 365 Human Resources | HR management |
 
 ---
 
-# 18. PowerPoint
+# Microsoft 365 + Office
 
-Microsoft PowerPoint is a presentation application for creating slides, charts, diagrams, and visual presentations.
-
-**Remember:** PowerPoint = presentations.
-
----
-
-# 19. SQL Server
-
-Microsoft SQL Server is a relational database management system used to store, manage, and query structured data.
-
-**Remember:** SQL Server = Microsoft's relational database.
-
----
-
-# 20. Visual Studio Code
-
-Visual Studio Code (VS Code) is a lightweight source-code editor used for programming, web development, scripting, Git, DevOps, and cloud development.
-
-**Remember:** VS Code = code editor.
-
----
-
-# 21. Windows
-
-Windows is Microsoft's operating system family for computers and other devices.
-
-**Remember:** Windows = operating system.
-
-## Active Directory
-
-Active Directory (AD) is Microsoft's traditional directory service for managing users, computers, groups, authentication, permissions, and organizational policies in Windows Server environments.
-
-**Remember:** Active Directory = centralized users + computers + permissions.
+| Product | What it is used for |
+|---|---|
+| Microsoft 365 | Productivity and collaboration |
+| Microsoft 365 Copilot | AI productivity |
+| Microsoft Teams | Collaboration and meetings |
+| Word | Documents |
+| Excel | Spreadsheets and analysis |
+| PowerPoint | Presentations |
+| Outlook | Email and calendar |
+| OneDrive | Personal/business cloud file storage |
+| SharePoint | Collaboration and document management |
+| OneNote | Digital note-taking |
+| Access | Desktop database application |
+| Forms | Surveys and forms |
+| Planner | Task and project planning |
+| To Do | Personal task management |
+| Lists | Structured lists and tracking |
+| Bookings | Appointment scheduling |
+| Clipchamp | Video editing |
+| Microsoft Designer | Graphic design and image creation |
+| Microsoft Loop | Collaborative workspaces |
+| Microsoft Visio | Diagrams and visualizations |
+| Microsoft Project | Project management |
+| Microsoft Stream | Enterprise video |
+| Microsoft Whiteboard | Collaborative whiteboarding |
+| Microsoft Viva | Employee experience platform |
+| Microsoft 365 Security Center | Microsoft 365 security management |
 
 ---
 
-# 22. Windows Server
+# Windows + Windows Server
 
-Windows Server is Microsoft's server operating system.
-
-It can provide services such as Active Directory, DNS, DHCP, file services, and application services.
-
-**Remember:** Windows Server = Windows operating system for servers.
+| Product | What it is used for |
+|---|---|
+| Windows | Desktop operating system |
+| Windows 11 | Current Windows client platform |
+| Windows Server | Server operating system |
+| Active Directory | Users, computers, groups, and authentication |
+| DNS Server | Domain name resolution |
+| DHCP Server | Automatic IP configuration |
+| IIS | Windows web server |
+| Hyper-V | Virtualization |
+| Windows Admin Center | Browser-based Windows Server management |
+| Windows Terminal | Modern command-line terminal |
+| PowerShell | Automation and administration |
+| Windows Subsystem for Linux (WSL) | Run Linux environments on Windows |
+| Windows 365 | Cloud PCs |
 
 ---
 
-# 23. Word
+# Databases
 
-Microsoft Word is a word-processing application used for documents, reports, assignments, resumes, letters, and technical documentation.
-
-**Remember:** Word = documents.
+| Product | Type / Purpose |
+|---|---|
+| SQL Server | Relational database |
+| Azure SQL Database | Managed relational SQL database |
+| Azure SQL Managed Instance | Managed SQL Server-compatible database |
+| SQL Server on Azure VM | SQL Server hosted on Azure VM |
+| Azure Database for PostgreSQL | Managed PostgreSQL |
+| Azure Database for MySQL | Managed MySQL |
+| Azure Cosmos DB | Globally distributed NoSQL |
+| Microsoft Access | Desktop relational database |
+| Azure Managed Redis | In-memory data store |
 
 ---
 
-# Quick Memory Map
+# GitHub
+
+| GitHub Product | What it is used for |
+|---|---|
+| GitHub | Code hosting and collaboration |
+| GitHub Actions | CI/CD automation |
+| GitHub Copilot | AI coding assistant |
+| GitHub Codespaces | Cloud development environments |
+| GitHub Issues | Work and issue tracking |
+| GitHub Projects | Project management |
+| GitHub Discussions | Community discussions |
+| GitHub Packages | Package hosting |
+| GitHub Pages | Static website hosting |
+| GitHub Releases | Software release management |
+| GitHub Advanced Security | Code security |
+| Dependabot | Dependency updates and security alerts |
+| CodeQL | Code security analysis |
+| GitHub Enterprise | Enterprise GitHub platform |
+
+---
+
+# Visual Studio
+
+| Product | What it is used for |
+|---|---|
+| Visual Studio | Full-featured IDE |
+| Visual Studio Code | Lightweight source-code editor |
+| Visual Studio for Mac | macOS development environment |
+| IntelliCode | AI-assisted development features |
+| .NET | Cross-platform development platform |
+| .NET MAUI | Cross-platform application UI |
+| C# | Microsoft programming language |
+| F# | Functional-first .NET language |
+| Visual Basic | .NET programming language |
+| MSBuild | Build engine |
+| NuGet | Package management |
+
+---
+
+# Quick Technology Map
 
 ## Cloud
-
 **Azure**
 
-## Code
-
-**GitHub | Azure DevOps | VS Code**
-
 ## Compute
+**VMs | App Service | Functions | AKS | Container Apps | Container Instances**
 
-**Virtual Machines | Container Instances | Container Apps | AKS**
+## Containers
+**Docker ecosystem | ACR | AKS | Container Apps | ACI**
 
 ## Storage
+**Blob | Files | Queue | Tables | Data Lake | Managed Disks**
 
-**Blob Storage | Azure Files | Storage Accounts**
+## Databases
+**SQL Server | Azure SQL | PostgreSQL | MySQL | Cosmos DB | Redis**
 
-## Database
+## Networking
+**VNet | Firewall | Load Balancer | Application Gateway | Front Door | VPN Gateway | ExpressRoute | DNS**
 
-**Azure SQL | PostgreSQL | SQL Server**
-
-## Network
-
-**Virtual Network | Azure Firewall | Azure Arc**
+## Identity
+**Entra ID | Active Directory | Entra External ID | Entra Domain Services**
 
 ## Security
-
-**Defender | Sentinel | Key Vault | Entra ID | Purview**
+**Defender | Sentinel | Key Vault | Purview | Security Copilot**
 
 ## DevOps
+**GitHub | Azure DevOps | Repos | Boards | Pipelines | Artifacts | Test Plans**
 
-**Azure DevOps | Pipelines | Monitor | Automation | Policy**
+## AI
+**Copilot | Microsoft Foundry | Foundry Tools | Azure ML | Azure AI Search | GitHub Copilot**
 
-## Data & AI
-
-**Fabric | Databricks | Azure Machine Learning | Microsoft Foundry | Copilot**
+## Data
+**Fabric | Databricks | Synapse | Data Factory | Data Lake | Power BI**
 
 ## Business
+**Dynamics 365 | Business Central | Finance | Sales | Customer Service | Field Service**
 
-**Dynamics 365 | Power Platform**
+## Low-Code
+**Power Apps | Power Automate | Power BI | Power Pages | Copilot Studio | Dataverse | AI Builder**
 
 ## Productivity
+**Microsoft 365 | Word | Excel | PowerPoint | Outlook | Teams | OneDrive | SharePoint**
 
-**Word | Excel | PowerPoint | Outlook | Microsoft 365**
+## Operating Systems
+**Windows | Windows Server | Windows 365**
 
 ---
 
-# DevOps Memory Chain
-
-A useful way to connect the products is:
-
-**Developer -> GitHub -> Build -> Test -> Deploy -> Monitor -> Secure**
-
-Example:
+# DevOps Connection Map
 
     Developer
-       |
-       v
-    GitHub
-       |
-       v
-    Azure Pipelines
-       |
-       +----> Build
-       |
-       +----> Test
-       |
-       v
+        |
+        v
+    GitHub / Azure Repos
+        |
+        v
+    Azure Boards
+        |
+        v
+    Azure Pipelines / GitHub Actions
+        |
+        +---- Build
+        |
+        +---- Test
+        |
+        v
+    Container Registry / Artifacts
+        |
+        v
     Deploy
-       |
-       +----> Virtual Machines
-       +----> Containers
-       +----> AKS
-       |
-       v
+        |
+        +---- Azure App Service
+        +---- Azure Functions
+        +---- Azure VMs
+        +---- Azure Container Apps
+        +---- AKS
+        |
+        v
     Azure Monitor
-       |
-       v
+        |
+        +---- Logs
+        +---- Metrics
+        +---- Alerts
+        |
+        v
     Security
-       |
-       +----> Defender
-       +----> Sentinel
-       +----> Key Vault
-       +----> Entra ID
-       |
-       v
+        |
+        +---- Defender
+        +---- Sentinel
+        +---- Key Vault
+        +---- Entra ID
+        |
+        v
     Production
-
 
 ---
 
-# One-Line Revision Table
+# Daily Revision Strategy
 
-| Product | Remember it as |
-|---|---|
-| Azure | Cloud platform |
-| Azure Arc | Manage resources anywhere |
-| Azure Automation | Automate tasks |
-| Blob Storage | Store objects/files |
-| Container Apps | Run containers |
-| Container Instances | Quickly run containers |
-| Container Registry | Store container images |
-| PostgreSQL | Managed PostgreSQL |
-| Databricks | Big data + analytics |
-| Azure DevOps | DevOps platform |
-| Disk Encryption | Encrypt VM disks |
-| Azure Files | Shared file storage |
-| Azure Firewall | Filter network traffic |
-| Key Vault | Secrets and keys |
-| AKS | Managed Kubernetes |
-| Azure ML | Machine learning |
-| Managed Applications | Managed Azure solutions |
-| Azure Monitor | Monitoring |
-| Pipelines | CI/CD |
-| Policy | Enforce rules |
-| Azure PowerShell | Manage Azure with PowerShell |
-| ARM | Resource management |
-| Azure SQL | Managed SQL database |
-| Storage Accounts | Azure storage |
-| Virtual Machines | Cloud computers |
-| Virtual Network | Private Azure network |
-| Foundry Tools | AI development tools |
-| Microsoft Foundry | AI platform |
-| Dynamics 365 | Business applications |
-| Business Central | ERP/business management |
-| Customer Service | Customer support |
-| Contact Center | Customer communications |
-| Field Service | Field technicians |
-| Finance | Financial management |
-| Sales | Sales management |
-| Excel | Spreadsheet |
-| GitHub | Code + collaboration |
-| Microsoft 365 | Productivity cloud |
-| Microsoft 365 Copilot | AI for Microsoft 365 |
-| Agent 365 | AI agent management |
-| Copilot | AI assistant |
-| Copilot Studio | Build AI agents |
-| Defender for Cloud | Cloud security |
-| Defender for Cloud Apps | Cloud-app security |
-| Defender for Endpoint | Device security |
-| Defender for Identity | Identity security |
-| Defender XDR | Cross-domain threat detection |
-| Entra ID | Identity + access |
-| Fabric | Data + analytics |
-| AI Builder | AI for Power Platform |
-| Dataverse | Business data platform |
-| Power Apps | Build apps |
-| Power Automate | Automate workflows |
-| Power BI | Business intelligence |
-| Power Pages | Business portals |
-| Purview | Data governance |
-| Compliance Manager | Compliance |
-| Sentinel | SIEM/security monitoring |
-| Office | Productivity apps |
-| Office 365 | Cloud productivity |
-| Outlook | Email + calendar |
-| PowerPoint | Presentations |
-| SQL Server | Relational database |
-| VS Code | Code editor |
-| Windows | Operating system |
-| Active Directory | Users + computers + permissions |
-| Windows Server | Server OS |
-| Word | Documents |
+### Day 1 — Azure Fundamentals
+Azure, VMs, Storage, VNet, Azure SQL, App Service.
+
+### Day 2 — Networking
+VNet, DNS, Firewall, Load Balancer, Application Gateway, VPN, ExpressRoute.
+
+### Day 3 — DevOps
+Git, GitHub, Azure DevOps, Repos, Boards, Pipelines, Artifacts.
+
+### Day 4 — Containers
+Docker concepts, ACR, ACI, Container Apps, Kubernetes, AKS.
+
+### Day 5 — Security
+Entra ID, Defender, Sentinel, Key Vault, Purview.
+
+### Day 6 — Data + AI
+SQL, Cosmos DB, Fabric, Databricks, Azure ML, Foundry, Copilot.
+
+### Day 7 — Microsoft Business + Productivity
+Dynamics 365, Power Platform, Microsoft 365, Office, Windows.
+
+Repeat the cycle and gradually add deeper notes for the products you use in projects.
+
+---
+
+## Important
+
+This is a **directory/reference**, not a complete list of every Microsoft-branded product ever released. Microsoft has a very large and continuously changing catalog. Azure alone spans many product categories and services, and Microsoft regularly introduces, renames, retires, or consolidates services.
+
+For current Azure products, use the official Azure catalog:
+https://azure.microsoft.com/products
+
+For current Microsoft 365 applications and services:
+https://www.microsoft.com/microsoft-365/products-apps-services
+
+For current Power Platform products:
+https://www.microsoft.com/power-platform
+
+For Microsoft product/security information:
+https://www.microsoft.com/trust-center/product-overview
